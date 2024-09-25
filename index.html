@@ -12,22 +12,30 @@
   <body>
     <div class="weather-app">
       <header>
-        <h3>WEATHER TODAY</h3>
+        
         <form class="search-form"> 
           <input type="search" class="search-form-input" placeholder="Enter City" required />
           <input type="submit" value="Search" class="search-form-button"/>
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Today is 14:49, scattered couds <br />
-            Humidit:66%, Wind: 3.13km/hr
+        <div class="weather-app-data">
+        <div class="city-climate">
+          <h1 class="city-output">Harare</h1>
+          <p class="weather-details">
+            Tuesday 14:49, scattered couds <br />
+            Humidity: <span class="humidity"> 66% </span>, Wind: <span class="wind-speed"> 3.13km/hr </span>
           </p>
         </div>
-        <div>🌍🌦️ 14℃</div>
+        <div class="current-temp">
+          <h2> 🌦️ <span class="temp">  14 </span> ℃  </h2>
+        </div>
+
+      </div>
+      <br><br>
+      <small>weather data</small>
       </main>
+
       <footer>
         This project was coded by
         <a href="https://github.com/Ntokozokate" target="_blank"
@@ -39,7 +47,7 @@
           target="_blank"
           >Github</a
         >
-        and generously hosted by
+        and hosted by
         <a href="https://katenm-weather-app.netlify.app/" target="_blank"
           >Netlify</a
         >
