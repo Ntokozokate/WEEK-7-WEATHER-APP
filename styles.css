@@ -20,6 +20,9 @@ header {
   border-bottom: 1px solid #3cb371;
   padding: 20px;
 }
+main {
+  background-color: #dff2e8;
+}
 .weather-details {
   opacity: 50%;
 }
@@ -44,6 +47,7 @@ header {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  line-height: 20px;
 }
 .city-output {
   margin: 0;
@@ -57,12 +61,15 @@ header {
   color: darkgreen;
   font-size: 20px;
 }
-.current-temp {
+.current-temp-container {
   display: flex;
 }
-
 .temp {
-  font-size: 60px;
+  font-size: 55px;
+}
+.units {
+  margin-right: 30px;
+  display: inline;
 }
 
 footer {
