@@ -1,3 +1,19 @@
 body {
-  background-color: rgb(191, 213, 232);
+  background-color: lightgrey;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.weather-app {
+  background-color: white;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 30px 50px 20px rgba(78, 99, 99, 0.5);
+  border-radius: 17px;
+  padding: 30px;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 140;
+  font-style: normal;
 }
