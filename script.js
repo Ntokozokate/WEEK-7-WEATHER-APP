@@ -9,3 +9,8 @@ function searchWeather(event) {
 }
 
 searchFormElement.addEventListener("submit", searchWeather);
+//call the API
+//inject the Axios
+//call the axios
+//display the temperature
+//
