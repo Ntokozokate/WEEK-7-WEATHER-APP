@@ -13,15 +13,23 @@
     <div class="weather-app">
       <header>
         
-        <form class="search-form"> 
-          <input type="search" class="search-form-input" placeholder="Enter City" required />
+        <form class="search-form"
+        id="search-form"
+        > 
+          <input type="search" 
+          class="search-form-input" 
+          placeholder="Enter City" 
+          required 
+          id="search-form-input"
+          />
           <input type="submit" value="Search" class="search-form-button"/>
         </form>
       </header>
       <main>
         <div class="weather-app-data">
         <div class="city-climate">
-          <h1 class="city-output">Harare</h1>
+          <h1 class="city-output"
+          id="city-output">Harare</h1>
           <p class="weather-details">
             Tuesday 14:49, scattered couds <br />
             Humidity: <span class="humidity"> 66% </span>, Wind: <span class="wind-speed"> 3.13km/hr </span>
@@ -59,5 +67,6 @@
         >
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
